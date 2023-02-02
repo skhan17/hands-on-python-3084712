@@ -25,3 +25,6 @@ for laureate in laureates:
         born_date = datetime.strptime(laureate["born"], "%Y-%m-%d")
         print("age", year_date.year - born_date.year)
         break
+
+# prints all info
+# calculates and prints his age
